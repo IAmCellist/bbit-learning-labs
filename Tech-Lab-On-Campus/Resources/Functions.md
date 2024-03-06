@@ -19,7 +19,7 @@ channel = connection.channel()
 
 ## Creating An Exchange
 ```sh
-exchange = channel.exchange_declare(exchange="Exchange Name")
+    exchange = channel.exchange_declare(exchange="Exchange Name")
 ```
 
 ## Publishing To An Exchange
